@@ -51,9 +51,9 @@
 }
 .dropdown-item:hover
 {
-  transition-duration: 1s;
-	color: #78828e;
-	background-color: #fcfcfc;
+  transition-duration: 2s;
+	color: #f0f1f5;
+	background-color:#7ecb7f ;
 
 }
 .tabs ul 
@@ -77,8 +77,41 @@
 	background-color: #f0f1f5;
 	color: #40bb43;
 }
+@media screen and (max-width : 600px)  { 
+  .tabs ul li {
+  width: 43%;
+  margin: 3px;
+  text-align: center;
+  }
 
-.devcie
+  .tabs ul {
+  padding: 0px 30px;
+  }
+ 
+}
+@media (min-width :601px) and (max-width : 767px) {
+  .li-media {
+  width: 29%;
+  margin: 3px;
+  text-align: center;
+  }
+
+}
+@media (min-width :768px) and (max-width : 1199px) {
+  .li-media {
+  width: 20%;
+  margin: 3px;
+  text-align: center;
+  }
+
+}
+
+.devices-section
+{
+  background-color: #f0f1f5;
+}
+
+.device
 {
   background-color:#ffffff;
   min-height: max-content;
@@ -88,6 +121,15 @@
   box-shadow: 5px 5px 9px 1px #dde0eb;
   padding-top: 15px;
 }
+
+@media (min-width:768px) and (max-width:1199px){
+  .device{
+  width: 48%;
+  display: inline-block;
+  float: left;
+  }
+}
+
 .imgDiv
 {
   background-color: #f0f1f5;
@@ -102,7 +144,7 @@
 }
   
 
-}
+
 h6
 {
 	margin-top: 10px;
